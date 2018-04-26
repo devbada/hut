@@ -3,6 +3,6 @@
 > UMS HUT Project. 
 > A Simple Communication Spaces.
 
-# Start information above.
+# See below for instructions.
 * yarn install
 * yarn start
