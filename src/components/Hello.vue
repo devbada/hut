@@ -17,6 +17,23 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+
+
+    <el-row>
+      <el-col :span="24">
+        <div class="grid-content bg-purple-dark">
+           <el-input placeholder="ID를 입력하세요." v-model="input3">
+            <template slot="prepend">ID</template>
+          </el-input>
+        </div>
+        <div class="grid-content bg-purple-dark">
+           <el-input placeholder="비밀번호를 입력하세요." v-model="input3">
+            <template slot="prepend">PASSWORD</template>
+          </el-input>
+        </div>
+      </el-col>
+    </el-row>
+
   </div>
 </template>
 
@@ -26,6 +43,10 @@ export default {
   data() {
     return {
       msg: 'Welcome to Your Vue.js App',
+      input3: '',
+      input4: '',
+      input5: '',
+      select: '',
     };
   },
 };
